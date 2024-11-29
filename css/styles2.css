@@ -1,0 +1,181 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #fafafa6e 0%, #6cbf6d 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Main container style for centering content */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(51, 255, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+}
+.container2 {
+    background: linear-gradient(100deg, #9adbb0 0%, #17a319 100%);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 255, 21, 0.15);
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Logo container */
+.logo-container {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Styling for headers */
+h1 {
+    color: #20572b;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #20572b;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn {
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    margin: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    width: 80%;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.form-control{
+    border-radius: 4rem;
+}
+
+/* Responsive adjustments */
+
+/* Large tablets and small laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+        padding: 12px 25px;
+    }
+
+    .logo {
+        width: 450px;
+    }
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        width: 350px;
+    }
+}
+
+/* Mobile phones (max-width: 576px) */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 18px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+}
+
+/* Extra small mobile phones (max-width: 400px) */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+    }
+
+    .btn {
+        font-size: 0.85rem;
+        padding: 6px 16px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+}
